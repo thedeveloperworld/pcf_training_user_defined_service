@@ -32,7 +32,12 @@ public class amisoftWelcomeController {
 
         ResponseEntity<String> responseStatus = null;
         return responseStatus = ResponseEntity.status(HttpStatus.OK).body
-                ("<center><h1 style=\"color:Blue;\"><b>  Welcome  to PCF Training  </center></h1></b>");
+                ("<center><h1 style=\"color:Blue;\"><b>  Welcome  to PCF Training :  </h1></b>" +
+                        "<br> service structure is : </br>" +
+                        "<h2> Welcome Service -- calls--> Attendee Service ---calls---> MySqlDb</h2>" +
+                        "<br> we use <i><b>Welcome Service </b> as main service</i></br>" +
+                        " <i><b> Attendee-Service </b> as user-defined-service </i></br>" +
+                        "<i> <b> MySqlDb </b> as PCF Market Place Service</i></br></center>");
     }
 
 
