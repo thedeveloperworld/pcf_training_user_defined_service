@@ -19,6 +19,6 @@ public class amisoftWelcomeController {
 
         ResponseEntity<String> responseStatus = null;
         return responseStatus = ResponseEntity.status(HttpStatus.OK).body
-                ("<center><h1 style=\"color:Green;\"><b>  Welcome  to PCF Training  </center></h1></b>");
+                ("<center><h1 style=\"color:Blue;\"><b>  Welcome  to PCF Training  </center></h1></b>");
     }
 }
