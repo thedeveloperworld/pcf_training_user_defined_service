@@ -2,19 +2,8 @@
 spring:
   application:
     name: amisoft-service-welcome   # This should be the same name of property file in Git.
-  cloud:
-    consul:
-      host: ${consul.host}
-      port: ${consul.port}
+
 server:
   port: 9001
-management:
-  security:
-    enabled: false
-security:
-  oauth2:
-    resource:
-      user-info-uri: ${oauth.client.user.info.uri}
-  basic:
-    enabled: false
+
 
