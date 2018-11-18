@@ -8,5 +8,5 @@ server:
 
 amisoft:
   attendee-service:
-    uri: http://localhost:8001/attendee
+    uri: http://localhost:8003
 

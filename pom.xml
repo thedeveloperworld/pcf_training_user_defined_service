@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.amisoft</groupId>
-	<artifactId>pcf_demo_v1</artifactId>
+	<artifactId>user_defined_service_demo</artifactId>
 	<version>1.0.0</version>
 	<packaging>jar</packaging>
 
