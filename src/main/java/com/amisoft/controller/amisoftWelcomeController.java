@@ -16,7 +16,7 @@ import org.springframework.web.util.UriComponentsBuilder;
  */
 
 @RestController
-@RequestMapping("/user")
+@RequestMapping("/tracker")
 public class amisoftWelcomeController {
 
     private static final String DEFAULT_ATTENDEE_SERVICE_URI = "http://localhost:8003";
